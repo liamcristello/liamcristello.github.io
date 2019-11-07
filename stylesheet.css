@@ -19,7 +19,7 @@ h1.project-page-heading {
 }
 
 h1.project-page-about {
-	text-decoration: underline;
+	font-style: bold;
 }
 
 h2.project-page-heading {
@@ -29,6 +29,12 @@ h2.project-page-heading {
 
 p.project-page-about {
 	font-size: 20px;
+}
+
+p.project-page-about-process {
+	font-size: 20px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .center {
