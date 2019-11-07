@@ -43,3 +43,18 @@ p.project-page-about-process {
 	margin-right: auto;
 	width: 50%;
 }
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:75%;
+    position:relative;
+    height:0;
+  }
+
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
