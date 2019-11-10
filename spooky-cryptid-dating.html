@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<head>
+	<html lang="en">
+  	<title>Liam Cristello</title>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css%22%3E">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js%22%3E"> </script>
+</head>
+<body class="w3-light-blue">
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-bar-block w3-light-blue w3-animate-right w3-top w3-text-black w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+	  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CLOSE SIDEBAR</a> 
+	  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a> 
+	  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+	  <a href="resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">RESUME</a>
+	  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+	</nav>
+
+	<!-- Top menu on small screens -->
+ 	<header class="w3-container w3-top w3-blue w3-xlarge w3-padding-16">
+    	<span class="w3-left w3-padding">LIAM CRISTELLO</span>
+    	<a href="javascript:void(0)" class="w3-right w3-button w3-blue" onclick="w3_open()">☰</a>
+  	</header>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main w3-content" style="max-width:1600px; margin-top:64px">
+		<div class="w3-container w3-center w3-margin-top w3-text-dark-grey w3-padding-32">
+			<!-- TITLE -->
+			<h1 class="project-page-heading" style="margin-bottom: 20px">SLEEPY JEOFF</h1>
+			<!-- First Row -->
+			<div class="w3-row">
+				<!-- Video/Logo -->
+				<div class="w3-half">
+					<div class="video-responsive">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fsce3Lo1Sls" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<!-- About The Game -->
+				<div class="w3-content w3-half w3-justify" style="max-width:1000px; margin: auto">
+					<h1 class="w3-center project-page-about">About The Game</h1>
+					<p class="w3-center w3-padding project-page-about">A <b>3D action game</b> where you <b>use the mouse</b> to pick up and move objects around Jeoff's room. Use objects to <b>affect Jeoff's path</b> to guide him back to his bed! The objects can also be used to <b>deflect enemies</b> like Jeoff's cat, dog, and vacuum cleaner.</p>
+					<a href=https://globalgamejam.org/2019/games/sleepy-jeoff>
+						<img src="Images/GGJLogo.png" style="width:20%" onclick="onClick(this)" class="center" alt="GGJLogo">
+						<h3 class="w3-center">Click here to download from the GGJ website!</h3>
+					</a>
+				</div>
+			</div>
+			<!-- Second Row -->
+			<div class="w3-row w3-margin-top">
+				<!-- Role(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Roles</h2>
+					<p class="w3-center project-page-about">Programming</p>
+					<p class="w3-center project-page-about">Asset Integration</p>
+					<p class="w3-center project-page-about">Game Design</p>
+				</div>
+				<!-- Engine -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Engine</h2>
+					<p class="w3-center project-page-about">Unity</p>
+				</div>
+				<!-- Contribution(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Contributions</h2>
+					<p class="w3-center project-page-about">Scripted player input to use mouse-clicks to interact with a computer-controlled character through items in scene</p>
+					<p class="w3-center project-page-about">Scripted enemy controller AI for various enemy types</p>
+					<p class="w3-center project-page-about">Integrated art and sound assets</p>
+				</div>
+			</div>
+			<!-- About the Process -->
+			<div class="w3-row w3-margin-top">
+				<h1 class="project-page-about">About The Process</h1>
+				<p class="project-page-about-process">This is probably the game <b>I am the proudest to have worked on</b>. I attended the 2019 Global Game Jam site at Northeastern University, and made a group with other developers there. I was <b>one of two programmers</b>, with a friend of mine. We worked with <b>3 digital artists</b> from Massachusetts College of Art and Design, and a <b>sound designer/composer</b> from Berklee College of Music. Being one of two main programmers was stressful at points, but it also forced me to learn how to take on a <b>sizeable amount of responsibility</b>. Additionally, I learned a lot about <b>working with artists to integrate assets</b> to make our game look and sound good. Overall, it was a really great experience and I think we ended up with a lovely end product!</p>
+			</div>
+			<!-- Misc. pics of game -->
+			<div class="w3-row w3-margin-top">
+				<div class="w3-half w3-padding">
+					<img src="Images/SleepyJeoffPic1.png" style="width:100%" class="center" alt="SleepyJeoff">
+				</div>
+				<div class="w3-half w3-padding">
+					<img src="Images/SleepyJeoffPic2.png" style="width:100%" class="center" alt="SleepyJeoff">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		// Script to open and close sidebar
+		function w3_open() {
+			document.getElementById("mySidebar").style.display = "block";
+			document.getElementById("myOverlay").style.display = "block";
+		}
+
+		function w3_close() {
+			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("myOverlay").style.display = "none";
+		}
+	</script>
+</body>
+</html>

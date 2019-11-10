@@ -2,7 +2,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
 
+h1.index-main {
+	font-size: 60px;
+	font-style: italic;
+}
+
 p.about1 {
+	text-indent: 40px;
 	padding-left: 70px;
 	padding-right: 50px;
 	font-size: 20px;
@@ -19,12 +25,11 @@ h1.project-page-heading {
 }
 
 h1.project-page-about {
-	font-style: bold;
+	font-style: italic;
 }
 
 h2.project-page-heading {
-	text-decoration: underline;
-
+	font-style: italic;
 }
 
 p.project-page-about {
