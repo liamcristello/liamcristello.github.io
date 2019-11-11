@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+	<html lang="en">
+  	<title>Liam Cristello</title>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css%22%3E">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js%22%3E"> </script>
+</head>
+<body class="w3-light-blue">
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-bar-block w3-light-blue w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+	  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CLOSE SIDEBAR</a> 
+	  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a> 
+	  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+	  <a href="resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">RESUME</a>
+	  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+	</nav>
+
+	<!-- Top menu on small screens -->
+ 	<header class="w3-container w3-top w3-blue w3-xlarge w3-padding-16">
+    	<span class="w3-left w3-padding">LIAM CRISTELLO</span>
+    	<a href="javascript:void(0)" class="w3-right w3-button w3-blue" onclick="w3_open()">☰</a>
+  	</header>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main w3-content" style="max-width:1920px; margin-top:64px">
+		<div class="w3-container w3-center w3-margin-top w3-text-black w3-padding-32">
+			<!-- TITLE -->
+			<h1 class="project-page-heading" style="margin-bottom: 20px"><b>PONG & OBSTACLES</b></h1>
+			<!-- First Row -->
+			<div class="w3-row">
+				<!-- Video/Logo -->
+				<div class="w3-half w3-center">
+					<img src="Images/Placeholder.png" alt="Placeholder" style="width:100%">
+				</div>
+				<!-- About The Game -->
+				<div class="w3-content w3-half w3-justify" style="max-width:1000px; margin: auto">
+					<h1 class="w3-center project-page-about">About The Game</h1>
+					<p class="w3-center w3-padding project-page-about">A <b>3D Virtual Reality game</b> for use with <b>the HTC Vive</b> and <b>Wii Balance Board</b>, developed during my <b>co-op internship at Northeastern's ReGame-VR Lab</b>. Play a version of the classic game <i>Pong</i>, but with a twist: your paddle is <b>controlled by shifting your weight</b> on the Wii Balance Board. As the difficulty increases, more challenges will take effect, such as <b>decreased paddle size</b>, <b>more balls to bounce</b>, or even <b>obstacles in 3-D space</b> which you must <b>deflect with the Vive controllers!</b></p>
+					<p class="w3-center w3-padding project-page-about">Unfortunately, because this is a <b>research game</b> designed for in-house use, I cannot provide a download link.</p>
+				</div>
+			</div>
+			<!-- Second Row -->
+			<div class="w3-row w3-margin-top">
+				<!-- Role(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Roles</h2>
+					<p class="w3-center project-page-about">Programming</p>
+					<p class="w3-center project-page-about">VR Integration</p>
+					<p class="w3-center project-page-about">Game Design</p>
+				</div>
+				<!-- Engine -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Engine</h2>
+					<p class="w3-center project-page-about">Unity</p>
+				</div>
+				<!-- Contribution(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Contributions</h2>
+					<p class="w3-center project-page-about">Scripted objects to interact with VR controllers and emulate real-world physics</p>
+					<p class="w3-center project-page-about">Programmed calibration scene to adjust game for players of different heights</p>
+					<p class="w3-center project-page-about">Sought out and implemented art and sound assets</p>
+					<p class="w3-center project-page-about">Conducted tests with third-party users and iterated on feedback</p>
+					<p class="w3-center project-page-about">Optimized game to export to Oculus Quest VR headset</p>
+				</div>
+			</div>
+			<!-- About the Process -->
+			<div class="w3-row w3-margin-top">
+				<h1 class="project-page-about">About The Process</h1>
+				<p class="project-page-about-process">This is one of two projects I've been working on for <b>my co-op internship</b>, the other one being <a href="throw-at-target.html">Throw At Target.</a> As with that game, it is designed for <b>physical therapy research</b>, in this case to help define <b>the optimal challenge level for engaging children in research tasks</b>. Also like <a href="throw-at-target.html">Throw At Target</a>, I am the only dedicated project member, so I <b>work largely independently.</b> I meet with my supervisor weekly to discuss goals and set deadlines, but when challenges crop up <b>I have to take the initiative to solve them myself.</b> I have been fortunate enough to be connected to different sources where I can ask questions, which is very helpful since this co-op is <b>my first time working solo with VR technology.</b> It has been a very <b>rewarding process</b>, for all its challenges. From this project I've learned about <b>calibrrating motion-control devices for gameplay</b>, designing <b>difficulty elements and how they progress between levels</b>, and how to <b>???</b>. I finish co-op in mid-December, and am excited to <b>finish this project</b> before then!</p>
+			</div>
+			<!-- Misc. pics of game -->
+			<div class="w3-row w3-margin-top">
+				<div class="w3-half w3-padding">
+					<img src="Images/Placeholder.png" style="width:100%" class="center" alt="Placeholder">
+				</div>
+				<div class="w3-half w3-padding">
+					<img src="Images/Placeholder.png" style="width:100%" class="center" alt="Placeholder">
+				</div>
+			</div>
+		</div>
+
+		<div class="w3-light-grey w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+	</div>
+
+	<script>
+		// Script to open and close sidebar
+		function w3_open() {
+			document.getElementById("mySidebar").style.display = "block";
+			document.getElementById("myOverlay").style.display = "block";
+		}
+
+		function w3_close() {
+			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("myOverlay").style.display = "none";
+		}
+	</script>
+</body>
+</html>
