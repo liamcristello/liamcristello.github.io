@@ -4,7 +4,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 h1.index-main {
 	font-size: 60px;
-	font-style: italic;
 }
 
 p.about1 {
@@ -21,7 +20,7 @@ h4.about-heading {
 
 h1.project-page-heading {
 	font-size: 60px;
-	font-style: italic;
+	font-weight: thick;
 }
 
 h1.project-page-about {
@@ -37,6 +36,7 @@ p.project-page-about {
 }
 
 p.project-page-about-process {
+	text-indent: 40px;
 	font-size: 20px;
 	text-align: justify;
 	text-justify: inter-word;
