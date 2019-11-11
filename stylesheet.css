@@ -15,7 +15,6 @@ p.about1 {
 
 h4.about-heading {
 	font-size: 56px;
-	font-style: italic;
 }
 
 h1.project-page-heading {
@@ -54,7 +53,7 @@ p.project-page-about-process {
     padding-bottom:75%;
     position:relative;
     height:0;
-  }
+}
 
 .video-responsive iframe{
     left:0;
@@ -62,4 +61,12 @@ p.project-page-about-process {
     height:100%;
     width:100%;
     position:absolute;
-  }
+}
+
+h2.contact {
+	font-size: 56px;
+}
+
+h3.contact {
+
+}
