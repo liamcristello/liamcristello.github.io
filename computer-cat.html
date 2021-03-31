@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+	<html lang="en">
+  	<title>Liam Cristello</title>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css%22%3E">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js%22%3E"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js%22%3E"> </script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body class="w3-light-blue">
+	<!-- Sidebar/menu -->
+	<nav class="w3-sidebar w3-bar-block w3-light-blue w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+	  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CLOSE SIDEBAR</a> 
+	  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">HOME</a> 
+	  <a href="about.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">ABOUT ME</a> 
+	  <a href="resume.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">RESUME</a>
+	  <a href="contact.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">CONTACT</a>
+	</nav>
+
+	<!-- Top menu on small screens -->
+ 	<header class="w3-container w3-top w3-blue w3-xlarge w3-padding-16">
+    	<span class="w3-left w3-padding">LIAM CRISTELLO</span>
+    	<a href="javascript:void(0)" class="w3-right w3-button w3-blue" onclick="w3_open()">☰</a>
+  	</header>
+
+	<!-- Overlay effect when opening sidebar on small screens -->
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+	<!-- !PAGE CONTENT! -->
+	<div class="w3-main w3-content" style="max-width:1920px; margin-top:64px">
+		<div class="w3-container w3-center w3-margin-top w3-text-black w3-padding-32">
+			<!-- TITLE -->
+			<h1 class="project-page-heading" style="margin-bottom: 20px"><b>COMPUTER CAT</b></h1>
+			<!-- First Row -->
+			<div class="w3-row">
+				<!-- Video/Logo -->
+				<div class="w3-half">
+					<div class="video-responsive">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/Rx1fHhD0cN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+				</div>
+				<!-- About The Game -->
+				<div class="w3-content w3-half w3-justify" style="max-width:1000px; margin: auto">
+					<h1 class="w3-center project-page-about">About The Game</h1>
+					<p class="w3-center w3-padding project-page-about">A <b>2D platforming game</b> where you <b>play as a cat</b> to jump through levels and clean up the computer. Pick up <b>loose memory chunks</b> to restore pieces of the level! Dodge <b>different enemies</b> like recycling bin turtles, email bombs, and more, as you traverse each level.</p>
+					<a href=https://globalgamejam.org/2021/games/computer-cat-7>
+						<img src="Images/GGJLogo.png" style="width:20%" onclick="onClick(this)" class="center" alt="GGJLogo">
+						<h3 class="w3-center">Click here to download from the GGJ website!</h3>
+					</a>
+				</div>
+			</div>
+			<!-- Second Row -->
+			<div class="w3-row w3-margin-top">
+				<!-- Role(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Roles</h2>
+					<p class="w3-center project-page-about">Enemy Design/AI</p>
+					<p class="w3-center project-page-about">Gameplay Programming</p>
+					<p class="w3-center project-page-about">Asset Integration</p>
+				</div>
+				<!-- Engine -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Engine</h2>
+					<p class="w3-center project-page-about">Unity</p>
+				</div>
+				<!-- Contribution(s) -->
+				<div class="w3-third">
+					<h2 class="project-page-heading">Contributions</h2>
+					<p class="w3-center project-page-about">Designed levels using tilemap assets</p>
+					<p class="w3-center project-page-about">Scripted enemy controller AI for various enemy types</p>
+					<p class="w3-center project-page-about">Integrated art and sound assets</p>
+				</div>
+			</div>
+			<!-- About the Process -->
+			<div class="w3-row w3-margin-top">
+				<h1 class="project-page-about">About The Process</h1>
+				<p class="project-page-about-process">This is probably the game <b>I am the proudest to have worked on</b>. I attended the 2021 Global Game Jam site at Northeastern University virtually, due to the ongoing COVID-19 pandemic, and made a group with other developers there. I was <b>one of two programmers</b>, with a friend of mine. We worked with <b>3 digital artists</b>, and a <b>sound designer/composer</b> from Berklee College of Music. I had a lot of fun designing enemies and <b>creating a basic finite-state-machine for enemy AI</b>. There was a lot of great <b>back-and-forth idea hashing</b> with this one, and I think the end-product ended up really tight and polished for something made so quickly!</p>
+			</div>
+			<!-- Misc. pics of game -->
+			<div class="w3-row w3-margin-top">
+				<div class="w3-half w3-center w3-padding">
+					<img src="Images/SleepyJeoffPic1.png" style="width:100%" class="center" alt="SleepyJeoff">
+				</div>
+				<div class="w3-half w3-center w3-padding">
+					<img src="Images/SleepyJeoffPic2.png" style="width:100%" class="center" alt="SleepyJeoff">
+				</div>
+			</div>
+		</div>
+		<!-- Footer -->
+	    <footer class="w3-container w3-padding-32 w3-indigo">  
+     		<div class="w3-row w3-center w3-padding">
+		        <!-- Twitter -->
+		        <a target="_blank" href="https://twitter.com/LiamCristello" class="fab fa-twitter" style="color:#FFFFFF; text-decoration: none; font-size: 60px"></a>
+		        <!-- Email -->
+		        <a href="mailto:liamcristello@gmail.com" class="fas fa-envelope" target="_blank" style="color: #FFFFFF; text-decoration: none; font-size: 60px; margin: 7px"></a>
+		        <!-- LinkedIn -->
+		        <a target="_blank" href="https://www.linkedin.com/in/liamcristello/" class="fab fa-linkedin-in" style="color: #FFFFFF; text-decoration: none; font-size: 60px; margin: 7px"></a>
+		        <!-- GitHub -->
+		        <a target="_blank" href="https://github.com/liamcristello" target="_blank" class="fab fa-github-square" style="color: #FFFFFF; text-decoration: none; font-size: 60px; margin: 7px" ></a>
+      		</div>
+	    </footer>
+	    <div class="w3-light-grey w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
+	</div>
+
+	<script>
+		// Script to open and close sidebar
+		function w3_open() {
+			document.getElementById("mySidebar").style.display = "block";
+			document.getElementById("myOverlay").style.display = "block";
+		}
+
+		function w3_close() {
+			document.getElementById("mySidebar").style.display = "none";
+			document.getElementById("myOverlay").style.display = "none";
+		}
+	</script>
+</body>
+</html>
